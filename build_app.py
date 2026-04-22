@@ -17,8 +17,9 @@ ARGS = [
     "--name", "Batch Rename",
     "--osx-bundle-identifier", "edu.chapman.batch-rename",
     "--osx-entitlements-file", "entitlements.plist",
-    # Bundle the HTML/CSS/JS UI
-    "--add-data", "src/batch_rename/ui:batch_rename/ui",
+    "--icon", "icon.icns",
+    "--add-data", "src/ui:ui",
+    "--paths", "src",
     "app_entry.py",
     "--clean",
     "--noconfirm",

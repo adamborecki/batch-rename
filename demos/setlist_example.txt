@@ -1,0 +1,8 @@
+; Chapman University - Example Concert Setlist
+; One numbered entry per line. Lines starting with ; are comments.
+
+01 Strauss - Don Juan, Op. 20
+02 Sibelius - Swan of Tuonela from Lemminkäinen Suite, Op. 22
+03 Dvořák - Violin Concerto in A minor, Op. 53 - I. Allegro ma non troppo
+04 Dvořák - Violin Concerto in A minor, Op. 53 - II. Adagio ma non troppo
+05 Dvořák - Violin Concerto in A minor, Op. 53 - III. Finale. Allegro giocoso

@@ -6,15 +6,14 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
 from pathlib import Path
 import webview
-from batch_rename.bridge import API
+from bridge import API
 
-# When frozen by PyInstaller, bundled files land in sys._MEIPASS
 if getattr(sys, "frozen", False):
     BASE = Path(sys._MEIPASS)
 else:
     BASE = Path(__file__).parent / "src"
 
-UI = BASE / "batch_rename" / "ui" / "index.html"
+UI = BASE / "ui" / "index.html"
 
 
 def main():
