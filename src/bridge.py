@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import subprocess
 from pathlib import Path
 from typing import Any
 
@@ -26,6 +27,9 @@ class API:
 
     def set_window(self, window: webview.Window) -> None:
         self._window = window
+
+    def open_url(self, url: str) -> None:
+        subprocess.Popen(["open", url])
 
     def pick_file(self, filters: list[dict]) -> str | None:
         file_types = tuple(
