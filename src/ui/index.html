@@ -506,37 +506,30 @@
     </div>
     <div class="info-body">
 
-      <h3>Before you export</h3>
-      <p>Rename each clip in FCP with a short <strong>shortcode</strong> — just the number, plus a letter if the piece has multiple sections.</p>
-      <p>To rename a clip: click it in the browser or timeline, press <strong>Return</strong>, type the shortcode, press <strong>Return</strong> again.</p>
+      <h3>Step 1 — Create a compound clip for each piece</h3>
+      <p>Select the range for a piece in the timeline, then press <strong>Option+G</strong> to create a compound clip. Name it with a <strong>shortcode</strong> — just the piece number, plus a letter if it has multiple movements.</p>
 
       <h3>Shortcode format</h3>
       <table class="code-table">
         <tr><td>Situation</td><td>Format</td><td>Example</td></tr>
-        <tr><td>01</td><td>Single piece</td><td>01, 02, 03…</td></tr>
-        <tr><td>07a</td><td>Piece with sections</td><td>07a, 07b, 07c…</td></tr>
-        <tr><td>08-1</td><td>Multiple camera angles</td><td>08-1, 08-2…</td></tr>
+        <tr><td>Single piece</td><td>01</td><td>01, 02, 03…</td></tr>
+        <tr><td>Piece with movements</td><td>07a</td><td>07a, 07b, 07c…</td></tr>
+        <tr><td>Multiple camera angles</td><td>08-1</td><td>08-1, 08-2…</td></tr>
       </table>
 
       <h3>Example</h3>
       <p>A concert with 5 pieces where piece 3 has 3 movements:</p>
       <div class="code-block">
-        <span class="sc">01</span><br>
-        <span class="sc">02</span><br>
-        <span class="sc">03a</span><br>
-        <span class="sc">03b</span><br>
-        <span class="sc">03c</span><br>
-        <span class="sc">04</span><br>
-        <span class="sc">05</span>
+        <span class="sc">01</span> &nbsp;02 &nbsp;<span class="sc">03a</span> &nbsp;03b &nbsp;03c &nbsp;04 &nbsp;05
       </div>
 
-      <h3>Then batch export</h3>
+      <h3>Step 2 — Batch export all clips</h3>
       <ol>
-        <li>Select all clips in the browser (<strong>Cmd+A</strong>)</li>
-        <li>Go to <strong>File &gt; Share &gt; Master File</strong></li>
-        <li>Choose a destination folder and export</li>
+        <li>Select all compound clips in the library (<strong>Cmd+A</strong>)</li>
+        <li>Go to <strong>File &gt; Share [n] Clips &gt; Export File…</strong></li>
+        <li>Click <strong>Continue</strong>, choose a destination folder, and export</li>
       </ol>
-      <p>You'll get files like <strong>01.mov</strong>, <strong>03a.mov</strong>, <strong>03b.mov</strong> — ready to drop into this app.</p>
+      <p>That folder is what you drop into <strong>Step 3</strong> of this app.</p>
 
     </div>
   </div>
